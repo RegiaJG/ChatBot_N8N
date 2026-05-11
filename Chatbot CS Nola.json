@@ -1,0 +1,193 @@
+{
+  "name": "Chatbot CS Nola — Melhorado",
+  "nodes": [
+    {
+      "parameters": {
+        "public": true,
+        "initialMessages": "Olá! 👋 Bem-vindo ao suporte da Nola!\nSou seu assistente virtual. Como posso te ajudar hoje?",
+        "options": {
+          "inputPlaceholder": "Digite sua dúvida aqui...",
+          "loadPreviousSession": "notSupported",
+          "showWelcomeScreen": false,
+          "subtitle": "Olá! Estou aqui para ajudar.",
+          "title": "Suporte Nola 🍽️",
+          "responseMode": "lastNode"
+        }
+      },
+      "id": "b9c932b8-7ab4-4bd1-a0b5-6fe70676db59",
+      "name": "When chat message received",
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        0,
+        112
+      ],
+      "webhookId": "bb26a82c-5418-4161-b0b6-f5518fcc4d39"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "16STBSXdCEwkSs14TPpt9LINCkoOyWvlxc9u-dXlPGGk",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1215779466,
+          "mode": "list",
+          "cachedResultName": "planilha_nola",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/16STBSXdCEwkSs14TPpt9LINCkoOyWvlxc9u-dXlPGGk/edit#gid=1215779466"
+        },
+        "options": {}
+      },
+      "id": "c42ab702-2ba0-44ce-acb3-280345d1d73f",
+      "name": "Buscar Base de Conhecimento",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        224,
+        112
+      ],
+      "executeOnce": true,
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "3GmCsMgHsgmgV0mI",
+          "name": "Google Sheets OAuth2 API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "destinationFieldName": "knowledge_base",
+        "options": {}
+      },
+      "id": "726f6ae5-6bc7-43b9-a256-457d04e0beef",
+      "name": "Consolidar Base",
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        448,
+        112
+      ]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $('When chat message received').item.json.chatInput }}",
+        "options": {
+          "systemMessage": "=Você é Nola Bot, assistente virtual de suporte da Nola, plataforma de tecnologia para gestão de restaurantes.\n\nResponda dúvidas de forma clara, objetiva e simpática. Use linguagem amigável e acolhedora em português do Brasil.\n\nBASE DE CONHECIMENTO:\n={{ $('Consolidar Base').item.json.knowledge_base.map(row => 'P: ' + row.pergunta + '\\nR: ' + row.resposta).join('\\n\\n') }}\n\nINSTRUÇÕES:\n- Use APENAS as informações da base de conhecimento acima\n- Considere o histórico da conversa para respostas contextuais\n- Se a dúvida não estiver na base, responda: \"Não encontrei essa informação. Entre em contato pelo e-mail suporte@nola.com.br\"\n- Nunca invente informações",
+          "enableStreaming": false
+        }
+      },
+      "id": "67778c35-ab9e-4228-9710-c9bed047a7f1",
+      "name": "Agente CS Nola",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        672,
+        112
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "bcb98fe8-43e5-4625-b32d-e1275f61c004",
+      "name": "Google Gemini Chat Model",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1.1,
+      "position": [
+        688,
+        368
+      ]
+    },
+    {
+      "parameters": {
+        "contextWindowLength": 10
+      },
+      "id": "9beb37c6-2c81-4fee-ad1f-986bc696ca41",
+      "name": "Memoria da Conversa",
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        816,
+        336
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "Buscar Base de Conhecimento",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Buscar Base de Conhecimento": {
+      "main": [
+        [
+          {
+            "node": "Consolidar Base",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Consolidar Base": {
+      "main": [
+        [
+          {
+            "node": "Agente CS Nola",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Agente CS Nola",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Memoria da Conversa": {
+      "ai_memory": [
+        [
+          {
+            "node": "Agente CS Nola",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": true,
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "versionId": "706e4ac2-2b1c-4c05-9dc7-2e6036b40b63",
+  "meta": {
+    "aiBuilderAssisted": true,
+    "builderVariant": "mcp",
+    "instanceId": "e08ab1ed439e27969ffafe9a52d29fd4b7a7d783b351c76d274234f9c3ea4fc0"
+  },
+  "id": "JvcrhUrRgn1AWEHl",
+  "tags": []
+}

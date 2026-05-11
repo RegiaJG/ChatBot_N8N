@@ -1,0 +1,101 @@
+pergunta,resposta,categoria
+Como faço login no sistema?,"Acesse app.nola.com.br, insira seu e-mail e senha. Se esqueceu a senha, clique em ""Esqueci minha senha"".",Acesso
+"O sistema está fora do ar, o que faço?","Verifique sua conexão. Se persistir, contate o suporte pelo e-mail suporte@nola.com.br",Suporte
+Como emito relatório de vendas?,"Acesse Relatórios > Vendas, selecione o período e clique em Exportar.",Relatórios
+Como cadastro um produto no cardápio?,"Vá em Cardápio > Produtos > Novo Produto, preencha os dados e salve.",Cardápio
+Como integro com o iFood?,Acesse Integrações > iFood e siga o passo a passo para vincular seu restaurante.,Integrações
+Como cancelo um pedido?,"Abra o pedido em Pedidos > Em andamento, clique em ""Cancelar pedido"" e confirme.",Pedidos
+Como adiciono um usuário?,"Vá em Configurações > Usuários > Novo Usuário, insira o e-mail e defina o perfil.",Configurações
+O leitor de cartão não funciona.,"Verifique conexão e bateria do dispositivo. Reinicie o app. Se persistir, chame o suporte.",Suporte
+Como faço para emitir nota fiscal?,"Acesse Financeiro > Notas Fiscais, selecione o pedido e clique em Emitir NF.",Financeiro
+Como vejo os pedidos do dia?,Acesse o menu Pedidos > Hoje para visualizar todos os pedidos do dia em tempo real.,Pedidos
+Como recupero minha senha?,"Na tela de login, clique em ""Esqueci minha senha"", informe seu e-mail e siga as instruções enviadas.",Acesso
+O sistema não aceita meu login. O que fazer?,"Verifique se o Caps Lock está ativado. Tente redefinir a senha. Se persistir, contate o suporte.",Acesso
+Como faço login no app mobile?,"Baixe o app Nola na App Store ou Google Play, abra e insira seu e-mail e senha cadastrados.",Acesso
+Posso acessar o sistema em mais de um dispositivo?,"Sim, o sistema permite acesso simultâneo em múltiplos dispositivos com o mesmo login.",Acesso
+Como altero meu e-mail de acesso?,"Acesse Configurações > Meu Perfil > Editar e atualize o campo e-mail. Confirme pelo e-mail atual.",Acesso
+O app está lento. Como resolver?,"Feche e reabra o app. Verifique sua conexão de internet. Limpe o cache do dispositivo se necessário.",Suporte
+Recebi uma mensagem de erro. O que fazer?,"Anote o código do erro e entre em contato com o suporte pelo chat ou e-mail suporte@nola.com.br.",Suporte
+Como entro em contato com o suporte?,"Pelo chat dentro do sistema, pelo e-mail suporte@nola.com.br ou pelo WhatsApp indicado no rodapé.",Suporte
+Qual o horário de atendimento do suporte?,"O suporte está disponível de segunda a sábado das 8h às 22h, e domingos das 10h às 18h.",Suporte
+Como reporto um bug no sistema?,"Acesse Ajuda > Reportar Problema, descreva o que aconteceu e envie. Nossa equipe analisará em até 24h.",Suporte
+Como altero um pedido já feito?,"Abra o pedido em Pedidos > Em andamento, clique em ""Editar"" e faça as alterações desejadas.",Pedidos
+Como transfiro um pedido para outra mesa?,"No pedido, clique em ""Transferir Mesa"", selecione a mesa de destino e confirme.",Pedidos
+Como divido um pedido entre clientes?,"Abra o pedido e clique em ""Dividir conta"". Selecione os itens de cada pessoa e confirme os valores.",Pedidos
+Como marco um pedido como entregue?,"No pedido em andamento, clique em ""Marcar como entregue"" após levar o pedido ao cliente.",Pedidos
+Como vejo o histórico de pedidos?,"Acesse Pedidos > Histórico. Filtre por data, status ou cliente para encontrar o pedido desejado.",Pedidos
+Como faço um pedido manualmente pelo sistema?,"Acesse Pedidos > Novo Pedido, selecione a mesa ou cliente, adicione os itens e confirme.",Pedidos
+Como aplico desconto em um pedido?,"Ao fechar o pedido, clique em ""Desconto"", informe o valor ou percentual e confirme.",Pedidos
+Como imprimo o comprovante de um pedido?,"Abra o pedido e clique em ""Imprimir"". Selecione a impressora e confirme.",Pedidos
+Como edito um produto do cardápio?,"Vá em Cardápio > Produtos, encontre o produto, clique no ícone de edição, faça as alterações e salve.",Cardápio
+Como desativo um produto sem excluir?,"Em Cardápio > Produtos, localize o produto e desative o toggle ""Disponível"". O item fica oculto no app.",Cardápio
+Como organizo as categorias do cardápio?,"Acesse Cardápio > Categorias. Arraste as categorias para reordenar ou clique em Editar para renomear.",Cardápio
+Como adiciono foto a um produto?,"Na edição do produto, clique em ""Adicionar imagem"", faça upload da foto e salve.",Cardápio
+Como defino preço promocional para um produto?,"Na edição do produto, ative ""Preço promocional"", insira o valor e o período de validade da promoção.",Cardápio
+Como cadastro complementos e adicionais?,"Em Cardápio > Complementos, crie grupos de complementos e vincule-os aos produtos desejados.",Cardápio
+Como importo cardápio em massa?,"Acesse Cardápio > Importar, baixe o modelo de planilha, preencha e faça o upload do arquivo.",Cardápio
+Como crio um combo ou kit de produtos?,"Em Cardápio > Combos, clique em Novo Combo, adicione os itens e defina o preço especial.",Cardápio
+Como vejo o faturamento do mês?,"Acesse Financeiro > Resumo e selecione o mês desejado para ver receitas, despesas e lucro.",Financeiro
+Como registro uma despesa?,"Acesse Financeiro > Despesas > Nova Despesa, informe a categoria, valor, data e descrição.",Financeiro
+Como gero um relatório financeiro?,"Acesse Financeiro > Relatórios, escolha o tipo e período e clique em Gerar.",Financeiro
+Como configuro formas de pagamento aceitas?,Acesse Configurações > Pagamentos e ative ou desative as formas de pagamento aceitas.,Configurações
+Como faço o fechamento de caixa?,"Acesse Financeiro > Caixa > Fechar Caixa, confira os valores e confirme o fechamento.",Financeiro
+Como vejo as comissões dos garçons?,"Acesse Financeiro > Comissões, selecione o período e visualize o total por colaborador.",Financeiro
+Como cancelo uma nota fiscal emitida?,"Acesse Financeiro > Notas Fiscais, localize a nota, clique em ""Cancelar NF"" e informe o motivo.",Financeiro
+Como configuro a taxa de serviço?,Acesse Configurações > Taxas > Taxa de Serviço e defina o percentual aplicado automaticamente.,Configurações
+Como exporto relatório em Excel?,"Após gerar o relatório, clique em ""Exportar"" e selecione o formato XLSX ou CSV.",Relatórios
+Como vejo os produtos mais vendidos?,"Acesse Relatórios > Produtos e ordene por quantidade vendida para ver o ranking.",Relatórios
+Como vejo relatório de cancelamentos?,"Acesse Relatórios > Cancelamentos, filtre por período e veja os itens e motivos cancelados.",Relatórios
+Como gero relatório por período específico?,"Em qualquer relatório, use os filtros de data inicial e final e clique em Filtrar.",Relatórios
+Como compartilho relatórios com sócios?,"Exporte o relatório e envie por e-mail, ou conceda acesso ao sócio como usuário com perfil Gerente.",Relatórios
+Como vejo relatório por forma de pagamento?,Acesse Relatórios > Pagamentos para ver o total recebido por cada forma de pagamento no período.,Relatórios
+Como defino permissões de acesso de um usuário?,"Em Configurações > Usuários, clique no usuário e edite o perfil de acesso definindo o que ele pode fazer.",Configurações
+Como altero o nome do estabelecimento?,Acesse Configurações > Estabelecimento e edite o campo Nome. Salve as alterações.,Configurações
+Como configuro o horário de funcionamento?,"Acesse Configurações > Horários e defina os dias e horários de abertura e fechamento.",Configurações
+Como altero a logo do restaurante?,"Em Configurações > Estabelecimento, clique em ""Alterar logo"" e faça upload da nova imagem.",Configurações
+Como configuro a taxa de entrega?,"Acesse Configurações > Delivery > Taxa de Entrega e defina valores por região ou distância.",Configurações
+Como excluo um usuário do sistema?,"Em Configurações > Usuários, localize o usuário, clique nos três pontos e selecione ""Excluir"".",Configurações
+Como configuro a gorjeta automática no sistema?,"Acesse Configurações > Taxas > Gorjeta, defina o percentual padrão e ative a aplicação automática ao fechar a conta.",Configurações
+Como configuro o tempo estimado de preparo?,"Em Configurações > Operações, defina o tempo médio de preparo para pedidos do salão e delivery.",Configurações
+Como integro com o Rappi?,"Acesse Integrações > Rappi e siga o passo a passo para vincular sua conta ao restaurante.",Integrações
+Como integro com minha maquininha de cartão?,"Acesse Integrações > Pagamentos, selecione a operadora e siga as instruções de pareamento.",Integrações
+Como desativo uma integração existente?,"Em Integrações, localize a integração ativa e clique em ""Desativar"". Confirme a ação.",Integrações
+Como resolvo erros de sincronização com delivery?,"Verifique se o token da integração ainda é válido. Atualize as credenciais em Integrações se necessário.",Integrações
+Como integro com sistema de PDV externo?,"Acesse Integrações > PDV e consulte a documentação da API disponível ou contate o suporte.",Integrações
+Como atualizo o cardápio nos apps de delivery automaticamente?,Ao salvar alterações no cardápio o sistema sincroniza automaticamente com as plataformas integradas.,Integrações
+Como configuro os dados fiscais da empresa?,"Acesse Configurações > Fiscal e preencha CNPJ, regime tributário, endereço e dados do contador.",Fiscal
+Como emito cupom fiscal SAT ou CF-e?,"Acesse Financeiro > Cupom Fiscal, vincule o equipamento SAT nas configurações e emita ao fechar o pedido.",Fiscal
+Como reenvio uma NF-e por e-mail?,"Em Financeiro > Notas Fiscais, localize a nota, clique nos três pontos e selecione ""Reenviar por e-mail"".",Fiscal
+Como configuro a série da nota fiscal?,"Em Configurações > Fiscal, defina o número de série no campo correspondente antes de emitir.",Fiscal
+Como habilito a emissão de NFC-e?,"Acesse Configurações > Fiscal, selecione NFC-e como tipo de documento e configure o certificado digital.",Fiscal
+Como faço a inutilização de notas fiscais?,"Acesse Financeiro > Notas Fiscais > Inutilizar e informe o intervalo de numeração a ser inutilizado.",Fiscal
+Como cadastro itens no estoque?,"Acesse Estoque > Produtos > Novo Item, preencha nome, unidade, quantidade inicial e custo.",Estoque
+Como configuro baixa automática no estoque?,"Vincule os ingredientes ao produto no Cardápio. A baixa ocorre automaticamente a cada venda.",Estoque
+Como faço inventário de estoque?,"Acesse Estoque > Inventário, informe as quantidades físicas de cada item e confirme o ajuste.",Estoque
+Como recebo alerta de estoque baixo?,"Em Estoque > Produtos, defina o estoque mínimo de cada item. O sistema alertará quando atingir o limite.",Estoque
+Como registro entrada de mercadoria?,"Acesse Estoque > Entradas > Nova Entrada, informe os itens recebidos, fornecedor e quantidade.",Estoque
+Como vejo o histórico de movimentações do estoque?,"Acesse Estoque > Histórico. Filtre por produto ou período para ver todas as movimentações.",Estoque
+Como cadastro um cliente?,"Acesse Clientes > Novo Cliente, preencha os dados como nome, telefone, e-mail e endereço.",Clientes
+Como vejo o histórico de pedidos de um cliente?,"Em Clientes, localize o cliente e clique em seu nome para ver o histórico completo de pedidos.",Clientes
+Como aplico desconto para cliente fidelizado?,"Em Clientes, edite o perfil do cliente e ative o desconto de fidelidade com o percentual desejado.",Clientes
+Como exporto a lista de clientes?,"Acesse Clientes > Exportar e escolha o formato desejado para baixar a lista completa.",Clientes
+Como edito os dados de um cliente?,"Em Clientes, localize o cliente, clique em Editar, faça as alterações e salve.",Clientes
+Como abro uma mesa ou comanda?,"Na tela principal, selecione a mesa disponível ou clique em Nova Comanda e informe o número de pessoas.",Mesas
+Como transfiro itens entre mesas?,"Com a mesa aberta, clique em ""Transferir itens"", selecione os produtos e a mesa de destino.",Mesas
+Como fecho uma mesa?,"Abra a mesa, revise os itens, clique em ""Fechar Mesa"", escolha a forma de pagamento e confirme.",Mesas
+Como imprimo a comanda de uma mesa?,"Com a mesa aberta, clique em ""Imprimir comanda"" para enviar para a impressora configurada.",Mesas
+Como configuro o mapa de mesas do salão?,"Acesse Configurações > Mesas, adicione ou remova mesas e organize o layout do salão.",Mesas
+Como adiciono mais mesas ao sistema?,"Em Configurações > Mesas, clique em ""Adicionar mesa"", informe nome e capacidade e salve.",Mesas
+Como configuro a impressora?,"Acesse Configurações > Impressoras > Adicionar Impressora e siga as instruções de instalação.",Impressora
+A impressora não está imprimindo. O que fazer?,"Verifique se a impressora está ligada e na mesma rede. Reinicie o app e tente novamente.",Impressora
+Como configuro impressão automática de pedidos?,"Em Configurações > Impressoras, ative a opção ""Imprimir automaticamente ao receber pedido"".",Impressora
+Como adiciono uma segunda impressora?,"Acesse Configurações > Impressoras > Adicionar Impressora e configure o segundo dispositivo.",Impressora
+Como configuro impressora de produção para a cozinha?,"Em Configurações > Impressoras, adicione a impressora e marque a opção ""Impressora de produção"".",Impressora
+Como vejo quais mesas estão abertas no momento?,"Na tela inicial, acesse o mapa de mesas. As abertas aparecem em destaque com o tempo de atendimento e o valor consumido até o momento.",Mesas
+Como atualizo o app Nola?,"Acesse a loja do seu dispositivo, pesquise por Nola e clique em Atualizar se disponível.",App
+Como uso o app sem internet?,"O app salva pedidos localmente sem internet e sincroniza automaticamente ao reconectar.",App
+Como configuro o pagamento por Pix no restaurante?,"Acesse Configurações > Pagamentos, ative o Pix e informe a chave Pix do estabelecimento. O QR Code será gerado automaticamente ao fechar o pedido.",Configurações
+Como vejo meu plano atual?,"Acesse Configurações > Assinatura para ver seu plano, funcionalidades inclusas e data de renovação.",Assinatura
+Como faço upgrade do meu plano?,"Em Configurações > Assinatura, clique em ""Mudar Plano"", escolha o novo plano e confirme o pagamento.",Assinatura
+Como cancelo minha assinatura?,Acesse Configurações > Assinatura > Cancelar Assinatura. O acesso permanece até o fim do período pago.,Assinatura
+Como atualizo os dados de pagamento do plano?,"Em Configurações > Assinatura, clique em ""Alterar forma de pagamento"" e insira os novos dados.",Assinatura
