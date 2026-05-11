@@ -1,0 +1,7 @@
+# Normalize line endings across OS
+* text=auto
+
+# Force GitHub Linguist to detect and display languages correctly
+*.json linguist-detectable=true
+*.csv linguist-vendored=true
+README.md linguist-documentation=true
