@@ -8,6 +8,7 @@ desktop.ini
 .idea/
 *.swp
 *.swo
+*.bak
 
 # Environment / secrets
 .env
@@ -16,3 +17,7 @@ secrets.json
 
 # Logs
 *.log
+
+# n8n exports with sensitive data
+*credentials*.json
+*_backup.json
